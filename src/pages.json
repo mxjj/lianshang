@@ -1,36 +1,70 @@
 {
-	"pages": [
-		{
+	"pages": [{
 			"path": "pages/index/index",
 			"style": {
-				"navigationBarTitleText": "首页"
+				"navigationStyle": "custom"
 			}
 		},
 		{
-			"path": "pages/logo/logo",
-			"style": {
-				"navigationBarTitleText": "登录"
-			}
-		}, 
+			"path": "pages/logo/logo"
+		},
 		{
-
-			"path": "pages/shopp/shopp",
+			"path": "pages/information/information",
 			"style": {
-				"navigationBarTitleText": "商城列表"
+				"navigationStyle": "custom"
 			}
 		},
 		{
-
+			"path": "pages/diggings/diggings"
+		},
+		{
 			"path": "pages/participation/part",
 			"style": {
-				"navigationBarTitleText": "分红"
+				"navigationStyle": "custom"
 			}
 		},
 		{
-
 			"path": "pages/usInfo/user",
 			"style": {
-				"navigationBarTitleText": "我的"
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/Detailspage/index",
+			"style": {
+				"navigationBarBackgroundColor": "#171A2C", 
+				"navigationBarTextStyle": "white",
+				"navigationBarTitleText":"商品详情",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [
+							{
+								"color": "#f1f2f3",
+								"float": "left", 
+								"fontSize": "20px"
+							}
+						]
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/announcement/index",
+			"style": {
+				"navigationBarBackgroundColor": "#171A2C", 
+				"navigationBarTextStyle": "white",
+				"navigationBarTitleText":"公告详情",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [
+							{
+								"color": "#f1f2f3",
+								"float": "left", 
+								"fontSize": "20px"
+							}
+						]
+					}
+				}
 			}
 		}
 	],
@@ -46,24 +80,30 @@
 				"text": "首页"
 			},
 			{
-				"pagePath": "pages/shopp/shopp",
-				"iconPath": "static/tabBar-icon/shop.png",
-				"selectedIconPath": "static/tabBar-icon/shop-h.png",
-				"text": "商城"
+				"pagePath": "pages/information/information",
+				"iconPath": "static/tabBar-icon/zixun.png",
+				"selectedIconPath": "static/tabBar-icon/zixun-h.png",
+				"text": "资讯"
 			},
 			{
 				"pagePath": "pages/participation/part",
-				"iconPath": "static/tabBar-icon/profit.png",
-				"selectedIconPath": "static/tabBar-icon/profit-h.png",
-				"text": "分红"
+				"iconPath": "static/tabBar-icon/kuanquan.png",
+				"selectedIconPath": "static/tabBar-icon/kuanquan-h.png",
+				"text": "矿圈"
 			},
 			{
 				"pagePath": "pages/usInfo/user",
-				"iconPath": "static/tabBar-icon/user.png",
-				"selectedIconPath": "static/tabBar-icon/user-h.png",
+				"iconPath": "static/tabBar-icon/myImg.png",
+				"selectedIconPath": "static/tabBar-icon/myImg-h.png",
 				"text": "我的"
 			}
-		]
+		],
+		"midButton": {
+			"width": "80px",
+			"height": "80px",
+			"text": "算力",
+			"iconPath": "static/tabBar-icon/suanli.png"
+		}
 	},
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
