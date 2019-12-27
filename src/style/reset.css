@@ -20,7 +20,7 @@ time, mark, audio, video {
 	padding: 0;
 	border: 0;
 	font-size: 100%;
-	font: inherit;
+	font-family:PingFang SC;
 	vertical-align: baseline;
 	box-sizing: border-box;
 }
@@ -71,4 +71,28 @@ table {
 }
 .col-99{
 	color:#999999;
+}
+.fs-31{
+	font-size: 31px;
+}
+.fs-28{
+	font-size: 28px;
+}
+.fs-24{
+	font-size: 24px;
+}
+.fs-26{
+	font-size: 26px;
+}
+.fs-20{
+	font-size: 20px;
+}
+
+.mb-14{
+	margin-bottom: 14px;
+}
+
+
+.bg-596{
+	background-color: #6BD596;
 }

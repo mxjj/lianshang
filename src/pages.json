@@ -36,6 +36,23 @@
 			}
 		},
 		{
+			"path": "pages/myOrder/components/cloudcomputing/index",
+			"style": {
+				"navigationBarBackgroundColor": "#171A2C",
+				"navigationBarTextStyle": "white",
+				"navigationBarTitleText": "云算力",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+							"color": "#f1f2f3",
+							"float": "left",
+							"fontSize": "20px"
+						}]
+					}
+				}
+			}
+		},
+		{
 			"path": "pages/Detailspage/index",
 			"style": {
 				"navigationBarBackgroundColor": "#171A2C",
@@ -58,6 +75,23 @@
 				"navigationBarBackgroundColor": "#171A2C",
 				"navigationBarTextStyle": "white",
 				"navigationBarTitleText": "公告详情",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+							"color": "#f1f2f3",
+							"float": "left",
+							"fontSize": "20px"
+						}]
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/myOrder/index",
+			"style": {
+				"navigationBarBackgroundColor": "#171A2C",
+				"navigationBarTextStyle": "white",
+				"navigationBarTitleText": "我的订单",
 				"app-plus": {
 					"titleNView": {
 						"buttons": [{

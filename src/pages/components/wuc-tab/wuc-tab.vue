@@ -56,7 +56,7 @@ export default {
         selectClass: {
             type: String,
             default() {
-                return 'text-blue';
+                return '';
             }
         }
     },
@@ -92,7 +92,7 @@ swiper {
 }
 
 .wuc-tab-item.cur {
-    border-bottom: 4upx solid;
+    border-bottom: 5px solid;
 }
 
 .wuc-tab.fixed {
@@ -114,6 +114,9 @@ swiper {
 }
 .text-blue{
   color:#0081ff;
+}
+.text-green {
+    color: #6BD596;
 }
 .text-white{
   color:#ffffff;

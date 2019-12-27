@@ -6,7 +6,6 @@ export default {
 </script>
 
 <style>
-
 uni-checkbox .uni-checkbox-input {
   width: 20px !important;
   height: 20px !important;
