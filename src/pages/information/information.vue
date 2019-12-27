@@ -62,10 +62,10 @@ export default {
 
 <style lang="less" scope>
 .mbox {
-  height: 800px;
+  position: relative;
+  height:100%;
   padding-top: 20px;
   background-color: #1d1e30;
-  border: 1px solid red;
   .header {
     height: 88px;
     display: flex;

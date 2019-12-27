@@ -76,7 +76,9 @@
       <view class="qxz">请选择币种添加矿机收益</view>
       <view class="add-buttom">+添加矿机收益</view>
     </view>
-     </view>
+  </view>
+
+ 
   </view>
 </template>
 <script>
@@ -84,16 +86,22 @@ export default {
   data() {
     return {
       message: "首页",
-      text:'互联网在线关于“约谈”问题的正式公告'
+      text:'互联网在线关于“约谈”问题的正式公告',
+      moveHandle:true,
+      title: 'Hello'
     };
   },
   methods: {
+   
   }
+  
 };
 </script>
 <style lang="less" scoped>
 .wrap {
   height: 100%;
+  // padding-bottom: 10px;
+  position: relative;
   .wrap-Img {
     .swiper{
       width: 100%;

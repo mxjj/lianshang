@@ -1,5 +1,11 @@
 {
 	"pages": [{
+			"path": "pages/tabber-nav/tabber",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
 			"path": "pages/index/index",
 			"style": {
 				"navigationStyle": "custom"
@@ -32,18 +38,16 @@
 		{
 			"path": "pages/Detailspage/index",
 			"style": {
-				"navigationBarBackgroundColor": "#171A2C", 
+				"navigationBarBackgroundColor": "#171A2C",
 				"navigationBarTextStyle": "white",
-				"navigationBarTitleText":"商品详情",
+				"navigationBarTitleText": "商品详情",
 				"app-plus": {
 					"titleNView": {
-						"buttons": [
-							{
-								"color": "#f1f2f3",
-								"float": "left", 
-								"fontSize": "20px"
-							}
-						]
+						"buttons": [{
+							"color": "#f1f2f3",
+							"float": "left",
+							"fontSize": "20px"
+						}]
 					}
 				}
 			}
@@ -51,18 +55,16 @@
 		{
 			"path": "pages/announcement/index",
 			"style": {
-				"navigationBarBackgroundColor": "#171A2C", 
+				"navigationBarBackgroundColor": "#171A2C",
 				"navigationBarTextStyle": "white",
-				"navigationBarTitleText":"公告详情",
+				"navigationBarTitleText": "公告详情",
 				"app-plus": {
 					"titleNView": {
-						"buttons": [
-							{
-								"color": "#f1f2f3",
-								"float": "left", 
-								"fontSize": "20px"
-							}
-						]
+						"buttons": [{
+							"color": "#f1f2f3",
+							"float": "left",
+							"fontSize": "20px"
+						}]
 					}
 				}
 			}
@@ -72,38 +74,7 @@
 		"color": "#7A7E83",
 		"selectedColor": "#3cc51f",
 		"borderStyle": "black",
-		"backgroundColor": "#ffffff",
-		"list": [{
-				"pagePath": "pages/index/index",
-				"iconPath": "static/tabBar-icon/index.png",
-				"selectedIconPath": "static/tabBar-icon/index-h.png",
-				"text": "首页"
-			},
-			{
-				"pagePath": "pages/information/information",
-				"iconPath": "static/tabBar-icon/zixun.png",
-				"selectedIconPath": "static/tabBar-icon/zixun-h.png",
-				"text": "资讯"
-			},
-			{
-				"pagePath": "pages/participation/part",
-				"iconPath": "static/tabBar-icon/kuanquan.png",
-				"selectedIconPath": "static/tabBar-icon/kuanquan-h.png",
-				"text": "矿圈"
-			},
-			{
-				"pagePath": "pages/usInfo/user",
-				"iconPath": "static/tabBar-icon/myImg.png",
-				"selectedIconPath": "static/tabBar-icon/myImg-h.png",
-				"text": "我的"
-			}
-		],
-		"midButton": {
-			"width": "80px",
-			"height": "80px",
-			"text": "算力",
-			"iconPath": "static/tabBar-icon/suanli.png"
-		}
+		"backgroundColor": "#ffffff"
 	},
 	"globalStyle": {
 		"navigationBarTextStyle": "black",

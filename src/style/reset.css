@@ -27,6 +27,7 @@ time, mark, audio, video {
 html, body {
 	height: 100%;
 	width: 100%;
+  background-color: #1D1E30;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
